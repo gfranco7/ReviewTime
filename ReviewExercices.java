@@ -5,10 +5,11 @@
 package reviewexercices;
 import javax.swing.JOptionPane;
 
+// Los ejercicios se ejecutarán de forma consecutiva, al finalizar uno, iniciará automaticamente el sigiuente.
 public class ReviewExercices {
 
     public static void main(String[] args) {
-        
+        //Exercice 1
         String input = JOptionPane.showInputDialog("Enter the height:");
         
         
@@ -24,7 +25,7 @@ public class ReviewExercices {
             System.out.println();
         }
     
-     
+        //Exercice 2
         input = JOptionPane.showInputDialog("Ingrese la altura del cuadro:");
         int altura = Integer.parseInt(input);
 
@@ -57,7 +58,7 @@ public class ReviewExercices {
    
         JOptionPane.showMessageDialog(null, cuadro.toString());
 
-           
+        //Exercice 3
         input = JOptionPane.showInputDialog("Enter the number of hours: ");
         
         
@@ -79,7 +80,7 @@ public class ReviewExercices {
        System.out.println("Full salary: "+ fullSalary);
         
   
-        
+        //Exercice 4
         input = JOptionPane.showInputDialog("Ingrese el tiempo en segundos:");
 
         
@@ -95,7 +96,7 @@ public class ReviewExercices {
         
         JOptionPane.showMessageDialog(null, resultado);
   
-        
+        //Exercice 5
         input = JOptionPane.showInputDialog("Ingrese la nota (de 0.0 a 5.0):");
         
         
